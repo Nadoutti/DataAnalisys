@@ -11,6 +11,6 @@ print(corr)
 
 
 plt.figure(figsize=(12, 10))
-map = sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f', robust=True)
+map = sns.heatmap(corr, annot=True, cmap='', fmt='.2f', robust=True)
 plt.title('Heatmap do Nadottins')
 plt.show()
